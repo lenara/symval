@@ -22,5 +22,6 @@ One such use case can be found in the mantra branch which is also running on Opt
 
 ## Can a token display more than just a balance in a wallet?
 This SVG inspired by NEAR on-chain icon images for tokens supported by the wallet. The source code is in branch regro_svg. Created by Simon, it is an interactive SVG that shows day/night cycles, a tree's respiration cycle, and localized seasons like Winter and Summer, based on the device’s location and time zone.
-![IMG_5352](https://github.com/lenara/symval/assets/37850208/6f3e922c-5bc9-4c70-babf-85574d45cdbe)
+![regro svg](https://github.com/lenara/symval/assets/37850208/6f3e922c-5bc9-4c70-babf-85574d45cdbe)
+<img src="https://github.com/lenara/symval/assets/37850208/6f3e922c-5bc9-4c70-babf-85574d45cdbe" alt="regro svg" width="200"/>
 
