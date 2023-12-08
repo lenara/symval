@@ -18,7 +18,8 @@ Inspired by ancient "technologies", we are exploring the idea of borrowing conce
 
 One such use case can be found in the mantra branch which is also running on Optimism Sepolia testnet [here](https://steep-resonance-9408.on.fleek.co/). The mantras are on-chain and they hold different symbolic values to different people; be it motivational, meditational or simple slogans. 
 
-![Screen Shot 2023-12-08 at 6 46 57 PM](https://github.com/lenara/symval/assets/37850208/2a27d9ec-bedb-4459-936b-270190d4f45c)
+![Screen Shot 2023-12-08 at 7 08 44 PM](https://github.com/lenara/symval/assets/37850208/8ae1a1c4-7c13-4d87-b215-0f2ebb12961a)
+
 
 ## Can a token display more than just a balance in a wallet?
 [This SVG](https://teia.art/objkt/651699) inspired by NEAR on-chain icon images for tokens supported by the wallet. The source code is in branch regro_svg. Created by Simon, it is an interactive SVG that shows day/night cycles, a tree's respiration cycle, and localized seasons like Winter and Summer, based on the device’s location and time zone. [See it here](https://teia.art/objkt/651699).
