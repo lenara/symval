@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular SVG with Mantra</title>
+</head>
+<body>
+
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Define a circle with a radius of 100 and centered at (100, 100) -->
+    <circle cx="100" cy="100" r="100" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+
+    <!-- Define the text element with the mantra -->
+    <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#333" font-size="16">
+        I Will Make It
+    </text>
+</svg>
+
+</body>
+</html>
