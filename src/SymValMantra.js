@@ -188,11 +188,23 @@ const Symantra = () => {
 
 {/* Mantras List */}
 <div style={{ margin: '20px', padding: '20px', border: '1px solid #ddd', borderRadius: '8px' }}>
-  <h2 style={{ marginBottom: '10px' }}>Mantras List</h2>
+  <h2 style={{ marginBottom: '10px' }}>Mantras</h2>
   <ul style={{ listStyle: 'none', padding: '0' }}>
     {mantrasList.map((mantraInfo, index) => (
-      <li key={index} style={{ marginBottom: '10px', fontSize: '14px' }}>
-        <strong>Mantra:</strong> {mantraInfo.mantra}, <strong>Quantity:</strong> {mantraInfo.quantity}
+       <li key={index} style={{ marginBottom: '10px', fontSize: '14px' }}>
+            {/*<strong>Mantra:</strong> {mantraInfo.mantra}, <strong>Quantity:</strong> {mantraInfo.quantity}*/}
+            <svg width="210" height="210" xmlns="http://www.w3.org/2000/svg">
+            {/* Define a circle with a radius of 100 and centered at (100, 100)*/}
+             <circle cx="105" cy="105" r="95" fill="#367c87" stroke="#fbac54" stroke-width="10"/>
+             {/*Define the text element with the mantra */}
+            <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" fill="#fd8248" font-size="24">
+            {mantraInfo.mantra}
+                </text>
+           
+            <text x="50%" y="75%" text-anchor="end" alignment-baseline="middle" fill="#fd8248" font-size="16">
+            {mantraInfo.quantity}
+                </text>
+        </svg>
       </li>
     ))}
   </ul>
