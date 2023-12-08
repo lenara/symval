@@ -16,7 +16,7 @@ Could we create a token still compatible with permissionless automated market ma
 ## How do you code symbolic values in smart contracts?
 Inspired by ancient "technologies", we are exploring the idea of borrowing concepts and practices from Buddhism, such as prayer wheels, mantras, holy temples / stupas, with the goal of deploying a digital version of them to the blockchain.
 
-One such use case can be found in the mantra branch which is also running on Optimism Sepolia testnet [here](https://steep-resonance-9408.on.fleek.co/).
+One such use case can be found in the mantra branch which is also running on Optimism Sepolia testnet [here](https://steep-resonance-9408.on.fleek.co/). The mantras are on-chain and they hold different symbolic values to different people; be it motivational, meditational or simple slogans. 
 
 ![Screen Shot 2023-12-08 at 4 35 21 PM](https://github.com/lenara/symval/assets/37850208/b28feb90-17f2-407e-8af3-77d2f90af997)
 
