@@ -139,7 +139,12 @@ contract SymbolicERC20 is IERC20Metadata, IUpgradeable {
             _transfer(msg.sender, _recipients[i], _amounts[i]);
         }
     }
+/**
+* @dev selfDestruct() and upgrade()
+* These are considered "red flags" from the point of view of financial tokens
+* but they will play in our favor for creating a token that does NOT want to be speculative
 
+*/
     function selfDestruct() external onlyOwner {
         selfdestruct(payable(owner));
     }
