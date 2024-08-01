@@ -4,9 +4,16 @@ import './App.css';
 function App() {
   const [ethAddress, setEthAddress] = useState("0x1234567890abcdef");
 
-  function generateCCIJNFT(name) {
+ function generateCCIJNFT(name) {
+    const svgWidth = 800;
+    const svgHeight = 400;
+    const logoWidth = 160;
+    const logoHeight = 60;
+    const logoX = (svgWidth - logoWidth) / 2;
+    const logoY = (svgHeight - logoHeight) / 2 - 30; // Adjust to position text below the logo
+
     return `
-      <svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+      <svg width="${svgWidth}" height="${svgHeight}" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" style="stop-color:rgb(70,130,180);stop-opacity:1" />
@@ -14,18 +21,19 @@ function App() {
           </linearGradient>
         </defs>
         <!-- Background -->
-        <rect width="800" height="400" fill="url(#grad1)" />
+        <rect width="${svgWidth}" height="${svgHeight}" fill="url(#grad1)" />
 
         <!-- CCIJ Logo -->
-        <image href="${logo}" x="20" y="20" height="60px" width="160px"/>
+        <image href="${logo}" x="${logoX}" y="${logoY}" height="${logoHeight}" width="${logoWidth}" />
 
         <!-- Message -->
-        <text x="20" y="150" font-family="Arial" font-size="24" fill="#FFF" text-shadow="2px 2px 4px #000000">
+        <text x="50%" y="${logoY + logoHeight + 40}" font-family="Arial" font-size="24" fill="#FFF" text-anchor="middle">
           CCIJ thanks <tspan font-weight="bold">${name}</tspan> for your support
         </text>
       </svg>
     `;
   }
+
 
   const nftSvg = generateCCIJNFT(ethAddress);
 
