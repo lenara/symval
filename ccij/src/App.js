@@ -7,8 +7,8 @@ function App() {
  function generateCCIJNFT(name) {
     const svgWidth = 800;
     const svgHeight = 400;
-    const logoWidth = 160;
-    const logoHeight = 60;
+    const logoWidth = 320;
+    const logoHeight = 120;
     const logoX = (svgWidth - logoWidth) / 2;
     const logoY = (svgHeight - logoHeight) / 2 - 30; // Adjust to position text below the logo
 
